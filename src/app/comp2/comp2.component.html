@@ -1,5 +1,6 @@
 <p>comp2 works!</p>
 <input #paramBox type="text" [value]="param" (change)="param = paramBox.value" />
 {{ param }}
-<a [routerLink]="['/abc']" [queryParams]="{ 'param': param }">Comp1</a>
+<br/>
+<a [routerLink]="['/abc']" [queryParams]="{ 'param': param }">Comp1</a>&nbsp;
 <a [routerLink]="['/def']"  [queryParams]="{ 'param': param }">Comp2</a>
