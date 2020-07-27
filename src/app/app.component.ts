@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Svc1Service } from './svc1.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'toy';
+  constructor(svc: Svc1Service) {
+
+  }
 }
