@@ -1,3 +1,3 @@
 Shows how to use URL query strings with Angular.
 
-Example the browser console logs.
+Examine the browser console logs as you click buttons.
